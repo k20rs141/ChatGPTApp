@@ -34,3 +34,5 @@ Carthage/Build/
 xcuserdata/
 *.moved-aside
 !.gitkeep
+# APIKey
+ChatGPTApp/APIKey.swift
