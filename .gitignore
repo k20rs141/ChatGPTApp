@@ -1,6 +1,6 @@
 # Xcode
 ## Mac OS X
-.DS_Store
+.DS_/Users/kokiyamada/Developer/APIKey.swiftStore
 ## Xcode build files
 build/
 DerivedData/
@@ -36,3 +36,5 @@ xcuserdata/
 !.gitkeep
 # APIKey
 ChatGPTApp/APIKey.swift
+ChatGPTApp/.DS_Store
+.DS_Store
