@@ -35,6 +35,6 @@ xcuserdata/
 *.moved-aside
 !.gitkeep
 # APIKey
-ChatGPTApp/APIKey.swift
 ChatGPTApp/.DS_Store
 .DS_Store
+ChatGPTApp/APIKey/APIKey.swift
