@@ -11,10 +11,10 @@
 		662961CA298550800093849B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662961C9298550800093849B /* Assets.xcassets */; };
 		662961CD298550800093849B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662961CC298550800093849B /* Preview Assets.xcassets */; };
 		662961D5298551950093849B /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 662961D4298551950093849B /* OpenAISwift */; };
-		662961DB29856F040093849B /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662961DA29856F040093849B /* APIKey.swift */; };
 		662961DD29856F2F0093849B /* ChatGPTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662961DC29856F2F0093849B /* ChatGPTViewModel.swift */; };
 		662961E22985799E0093849B /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662961E12985799E0093849B /* MessageModel.swift */; };
 		662961E5298655DF0093849B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662961E4298655DF0093849B /* ChatView.swift */; };
+		9F8A3E6E2AC9C26A00C2F62C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A3E6D2AC9C26A00C2F62C /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		662961C52985507E0093849B /* ChatGPTAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAppApp.swift; sourceTree = "<group>"; };
 		662961C9298550800093849B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662961CC298550800093849B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		662961DA29856F040093849B /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		662961DC29856F2F0093849B /* ChatGPTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTViewModel.swift; sourceTree = "<group>"; };
 		662961E12985799E0093849B /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		662961E4298655DF0093849B /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9F8A3E6D2AC9C26A00C2F62C /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		662961E0298570820093849B /* APIKey */ = {
 			isa = PBXGroup;
 			children = (
-				662961DA29856F040093849B /* APIKey.swift */,
+				9F8A3E6D2AC9C26A00C2F62C /* APIKey.swift */,
 			);
 			path = APIKey;
 			sourceTree = "<group>";
@@ -181,8 +181,8 @@
 				662961E22985799E0093849B /* MessageModel.swift in Sources */,
 				662961DD29856F2F0093849B /* ChatGPTViewModel.swift in Sources */,
 				662961E5298655DF0093849B /* ChatView.swift in Sources */,
-				662961DB29856F040093849B /* APIKey.swift in Sources */,
 				662961C62985507E0093849B /* ChatGPTAppApp.swift in Sources */,
+				9F8A3E6E2AC9C26A00C2F62C /* APIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
