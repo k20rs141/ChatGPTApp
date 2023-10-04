@@ -5,7 +5,7 @@ final class ChatGPTViewModel: ObservableObject {
     private var client: OpenAISwift?
     
     init() {
-        client = OpenAISwift(authToken: apiKey)
+        client = OpenAISwift(config: .makeDefaultOpenAI(apiKey: apiKey))
     }
     
     func getData(text: String) async -> String? {
@@ -13,8 +13,8 @@ final class ChatGPTViewModel: ObservableObject {
         
         do {
             let result = try await client.sendCompletion(with: text, maxTokens: 500)
-            print("chatGPT: \(String(describing: result.choices.first?.text))")
-            return result.choices.first?.text
+            print("chatGPT: \(String(describing: result.choices?.first?.text))")
+            return result.choices?.first?.text
         } catch {
             print(error)
             return nil
